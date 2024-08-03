@@ -57,17 +57,9 @@ namespace GetInfoFiles
                     try
                     {
                         FileInfo fileObj = new FileInfo(text);
-                        List<string> vuFileExtList = new List<string> { ".txt",
-                                                                        ".log",
-                                                                        ".bak",
-                                                                        ".tgd",
-                                                                        ".dat",
-                                                                        ".xml",
-                                                                        ".evt",};
-                        /*if (vuFileExtList.Any((string str) => string.Equals(fileObj.Extension, str, StringComparison.CurrentCultureIgnoreCase)))
-                        {
-                            goto exit;
-                        }*/
+                        /*List<string> vuFileExtList = new List<string> { ".txt",".log",".bak",".tgd",".dat",".xml",".evt",};
+                        if (vuFileExtList.Any((string str) => string.Equals(fileObj.Extension, str, StringComparison.CurrentCultureIgnoreCase)))
+                        {}*/
                         List<string> FormatList = new List<string> { ".dll", ".exe" };
                         /*string formatfile = fileObj.Extension;
                         textBox2.Text += "Расширение файла: " + formatfile + "\r\n";*/
@@ -98,7 +90,6 @@ namespace GetInfoFiles
                         MessageBox.Show(ex.Message);
                     }
 
-                //exit:
                     i++;
                 }
                 string[] arraydirs = Directory.GetDirectories(dir);
@@ -122,9 +113,7 @@ namespace GetInfoFiles
                 StreamWriter streamWriter = new StreamWriter(currentdir + "LogFile_" + DateTime.Now.ToString("yyyy-M-d_hh-mm") + ".log", true);
                 streamWriter.WriteLine(string.Concat(new object[]
                 {
-                    /*"[",
-                    DateTime.Now,
-                    "] ",*/
+                    /*"[",DateTime.Now,"] ",*/
                     message
                 }));
                 streamWriter.Close();

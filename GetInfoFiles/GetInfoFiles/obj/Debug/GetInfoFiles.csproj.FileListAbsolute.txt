@@ -1,0 +1,9 @@
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\bin\Debug\GetInfoFiles.exe
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\bin\Debug\GetInfoFiles.pdb
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.csprojAssemblyReference.cache
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.Form1.resources
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.Properties.Resources.resources
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.csproj.GenerateResource.cache
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.csproj.CoreCompileInputs.cache
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.exe
+C:\Users\OSPAS\source\repos\GetInfoFiles\GetInfoFiles\obj\Debug\GetInfoFiles.pdb
